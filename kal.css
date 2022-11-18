@@ -1,0 +1,96 @@
+#all {
+	position: absolute;
+	left: 40px;
+	top: 20px;
+	background-color: rgb(181, 178, 177);
+	width: 350px;
+	height: 390px;
+
+	border: 5px solid black;
+}
+.guziki {
+	font-size: 30px;
+	width: 80px;
+	height: 60px;
+	border-radius:
+	margin: 3px;
+	margin-top: 3px;
+	color: black;
+	background-color: white;
+
+}
+.guziki:hover{
+background-color: grey;
+}
+.zero{
+	font-size: 25px;
+	height: 60px;
+	width: 163px;
+	margin-top: 3px;
+	margin-right: 1.5px;
+	border: 2px solid black;
+	border-radius: ;
+}
+.zero:hover{
+background-color: grey;
+}
+.przecinek {
+	font-size: 25px;
+	height: 60px;
+	width: 80px;
+	margin: 3px;
+
+	border: 2px solid black;
+	border-radius: ;
+}
+.przecinek:hover{
+background-color: grey;
+}
+#t {
+	display: flex;
+	flex-direction: row;
+}
+
+#display{
+	font-size: 25px;
+
+	background-color: white;
+	width: 244px;
+	margin-top: 3px;
+	height: 58px;
+
+	border: 2px solid black;
+}
+#cyferki {
+display: flex;
+flex-direction: column;
+
+}
+#wszystkie {
+margin-left: 8px;
+margin-top: 3px;
+display: flex;
+flex-direction: row;
+
+}
+#dzialania {
+margin: 3px;
+display: flex;
+flex-direction: column;
+}
+.action {
+font-size: 25px;
+width: 80px;
+height: 60px;
+background-color: lightgrey;
+margin: 1.5px;
+}
+.action:hover{
+background-color: darkgray;
+}
+#czas {
+	width: 244px;
+	font-size: 60px;
+	height: 100px;
+	text-align: center;
+}

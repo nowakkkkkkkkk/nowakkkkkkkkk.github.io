@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>kalkulator</title>
+	<link rel="stylesheet" type="text/css" href="kal.css">
+</head>
+<body>
+	<div id="all">
+	
+	
+	<div id="wszystkie">
+	<div id="cyferki">
+		<div id="display"></div>
+	<div id="cyrfry">
+	<input type="button" value="1" class="guziki" onclick="dodajNaEkran(1)">
+	<input type="button" value="2" class="guziki" onclick="dodajNaEkran(2)">
+	<input type="button" value="3" class="guziki" onclick="dodajNaEkran(3)">
+	</div>
+	<div id="cyfry2">
+	<input type="button" value="4" class="guziki" onclick="dodajNaEkran(4)">
+	<input type="button" value="5" class="guziki" onclick="dodajNaEkran(5)">
+	<input type="button" value="6" class="guziki" onclick="dodajNaEkran(6)">
+	</div>
+	<div id="cyfry3">
+	<input type="button" value="7" class="guziki" onclick="dodajNaEkran(7)">
+	<input type="button" value="8" class="guziki" onclick="dodajNaEkran(8)">
+	<input type="button" value="9" class="guziki" onclick="dodajNaEkran(9)">
+	</div>
+	<div id="t">
+	<input type="button" value="0" class="zero" onclick="dodajNaEkran(0)">
+	<input type="button" value="." class="przecinek" onclick="dodajNaEkran('.')">
+	</div>
+		<div id="czas"></div>
+	</div>
+	<div id="dzialania">
+	<input type="button" value="cls" class="action" onclick="czysc()">
+	<input type="button" value="+" class="action" onclick="dodajNaEkran('+')">	
+	<input type="button" value="-" class="action" onclick="dodajNaEkran('-')">	
+	<input type="button" value="*" class="action" onclick="dodajNaEkran('*')">
+	<input type="button" value="/" class="action" onclick="dodajNaEkran('/')">		
+	<!--<input type="button" value="inne" class="action" onclick="inneDzialanie()">-->
+	<input type="button" value="=" class="action" onclick="oblicz()">
+	
+	</div>
+	</div>
+	</div>
+<script type="text/javascript" src="skrypty.js"></script>
+</div>
+</body>
+</html>
+
